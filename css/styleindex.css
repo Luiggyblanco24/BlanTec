@@ -5,6 +5,8 @@ body{
 
 }
 .contenedor{
+    max-width: 1400px;
+    margin: auto;
     display: flex; /* Utiliza flexbox para centrar los elementos */
     justify-content: center; /* Centra los elementos horizontalmente */
     align-items: center;
@@ -39,7 +41,6 @@ body{
 }
 .form button{
     margin-top: 10px;
-    
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 5px;
