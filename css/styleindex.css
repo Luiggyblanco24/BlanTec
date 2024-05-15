@@ -7,15 +7,13 @@ body{
 .contenedor{
     max-width: 1400px;
     margin: auto;
-    display: flex; /* Utiliza flexbox para centrar los elementos */
-    justify-content: center; /* Centra los elementos horizontalmente */
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-   
 }
 .form{
     width: 280px; 
     height: 340px;
-    align-items: center;
     background-color: #fff;
     margin-left: 50px;
     border-radius: 5%;
@@ -28,6 +26,7 @@ body{
     width: 220px;
     height: 180px;
     margin-top: 10px;
+
 }
 
 .form h1{
