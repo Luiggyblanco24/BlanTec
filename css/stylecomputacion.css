@@ -1,13 +1,13 @@
 body{
     display: flex;
     height: 100vh;
+    margin: 10%;
 }
     .contenedor {
         max-width: 1400px;
-        max-height: 1400px;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; /*para que se pueda poner abajo de otro*/
         justify-content: center;
     }
     
@@ -15,22 +15,23 @@ body{
         width: 280px;
         height: 340px;
         background-color: #fff;
-        margin: 0 10px; /* Ajusta el espacio entre los elementos */
+        margin: 0 30px; /* Ajusta el espacio entre los elementos */
         border-radius: 5px;
         -webkit-box-shadow: 10px 15px 5px 0px rgb(212, 145, 243);
         -moz-box-shadow: 10px 15px 5px 0px rgb(220, 169, 243);
         box-shadow: 10px 15px 5px 0px #d7a7eb;
         text-align: center;
+        margin-bottom: 60px; 
     }
     
     .form img {
         width: 220px;
         height: 180px;
         margin-top: 10px;
+        animation: ease-in animacion 2s;
     }
     
     .form h1 {
-        text-align: center;
         text-transform: uppercase;
         font-size: 22px;
         margin-top: 10px;
@@ -50,5 +51,20 @@ body{
         border: none;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         cursor: pointer;
+    }
+    .form>button:hover{
+        box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+        background: #e91fd8;
+        transition: .5s;
+    }
+    
+    @keyframes animacion{
+        0%{
+            transform: scale(0);
+        }
+        100%{
+            transform: scale(1);
+    
+        }
     }
     
