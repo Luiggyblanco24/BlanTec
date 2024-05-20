@@ -1,22 +1,21 @@
-
 body{
     display: flex;
     height: 100vh;
-    flex-direction: column;
+    margin: 10%;
 }
 .contenedor{
     max-width: 1400px;
     margin: auto;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .form{
-    width: 280px; 
+    width: 280px;
     height: 340px;
     background-color: #fff;
-    margin-left: 50px;
-    border-radius: 5%;
+    margin-left: 60px;
+    border-radius: 5px;
     box-shadow: 10px 15px 5px 0px #d7a7eb;
     text-align: center;
     margin-bottom: 60px;
@@ -27,9 +26,7 @@ body{
     margin-top: 10px;
     animation: ease-in animacion 2s;
 }
-
 .form h1{
-    text-align: center;
     text-transform: uppercase;
     font-size: 22px;
     margin-top: 10px;
@@ -41,33 +38,18 @@ body{
     margin-top: 10px;
     font-size: 16px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 5%;
     background-color: #d7a7eb;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    text-transform: uppercase;
 }
-
 .form>button:hover{
-    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+    box-shadow:0 4px 10px rgba(17, 29, 48, .26);
     background: #e91fd8;
     transition: .5s;
 }
-.titulo {
-    margin-top: 7%; 
-    text-align: center; 
-    font-size: 40px;
-    text-transform: uppercase; 
-    color: #6a1b9a; 
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 700; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
-    background: linear-gradient(to right, #d7a7eb, #e91fd8); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-}
-
 @keyframes animacion{
     0%{
         transform: scale(0);
@@ -77,4 +59,3 @@ body{
 
     }
 }
-

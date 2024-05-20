@@ -41,6 +41,6 @@ nav{
 }
 .nav .enlaces-header a:hover{
     color: #fff;
-    background-color: #d03d3d;
+    background: #e91fd8;
     transition: all ease-in-out .6s;
 }
