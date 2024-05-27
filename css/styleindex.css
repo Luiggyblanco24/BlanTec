@@ -55,15 +55,15 @@ body{
     transition: .5s;
 }
 .titulo {
-    margin-top: 7%; 
-    text-align: center; 
+    margin-top: 7%;
+    text-align: center;
     font-size: 40px;
-    text-transform: uppercase; 
-    color: #6a1b9a; 
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 700; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
-    background: linear-gradient(to right, #d7a7eb, #e91fd8); 
+    text-transform: uppercase;
+    color: #6a1b9a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #d7a7eb, #e91fd8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
