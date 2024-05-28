@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ebe1e1;
+    background-color: #AAB3BB;
     font-family: 'Roboto', sans-serif;
 }
 nav{
@@ -44,6 +44,6 @@ nav{
 }
 .nav .enlaces-header a:hover{
     color: #fff;
-    background: #e91fd8;
+    background: #FF6600;
     transition: all ease-in-out .6s;
 }

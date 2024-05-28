@@ -17,7 +17,7 @@ body{
         background-color: #fff;
         margin-left: 60px;
         border-radius: 5px;
-        box-shadow: 10px 15px 5px 0px #d7a7eb;
+        box-shadow: 10px 15px 5px 0px #008080;
         text-align: center;
         margin-bottom: 60px; 
     }
@@ -44,7 +44,7 @@ body{
         font-size: 16px;
         padding: 10px 20px;
         border-radius: 5px;
-        background-color: #d7a7eb;
+        background-color: #008080;
         color: rgb(255, 255, 255);
         border: none;
         cursor: pointer;
@@ -52,7 +52,7 @@ body{
     }
     .form>button:hover{
         box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
-        background: #e91fd8;
+        background: #FF6600;
         transition: .5s;
     }
     
