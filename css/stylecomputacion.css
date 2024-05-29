@@ -7,7 +7,7 @@ body{
         max-width: 1400px;
         margin: auto;
         display: flex;
-        flex-wrap: wrap; /*para que se pueda poner abajo de otro*/
+        flex-wrap: wrap;
         justify-content: center;
     }
     
@@ -19,7 +19,7 @@ body{
         border-radius: 5px;
         box-shadow: 10px 15px 5px 0px #008080;
         text-align: center;
-        margin-bottom: 60px; 
+        margin-bottom: 60px;
     }
     
     .form img {

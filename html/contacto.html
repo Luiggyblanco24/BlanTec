@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ContactoBlan</title>
     <link rel="stylesheet" href="../css/stylenav.css">
+    <link rel="stylesheet" href="../css/Stylecontacto.css">
 
 </head>
 <body>
@@ -18,11 +19,18 @@
                 <a href="contacto.html">CONTACTO</a>
                 
             </div>
-            <div class="hamburguer">
-            <i class="fa-solid fa-bars"></i>   
-            </div>
-
         </section>
     </nav>
+    <div id="contenedor">
+        <div id="form">
+            <h1>Brindanos tu informacion para darte las mejores promociones</h1>
+            <input type="text" placeholder="Su nombre" id="nombre">
+            <input type="text" placeholder="su apellido" id="apellido">
+            <input type="number" placeholder="Su numero de contacto" id="contacto">
+            <button onclick="enviar()">Enviar </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/jscontacto.js"></script>
 </body>
 </html>
